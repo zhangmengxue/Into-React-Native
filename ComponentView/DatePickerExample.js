@@ -10,10 +10,6 @@ var {
 } = React;
 
 var DatePickerExample = React.createClass({
-  statics: {
-    title: '<NavigatorIOS>',
-    description: 'iOS navigation capabilities',
-  },
   getDefaultProps: function () {
     return {
       date: new Date(),
@@ -128,6 +124,7 @@ exports.examples = [
 var styles = StyleSheet.create({
   content: {
     flex: 1,
+    marginTop: 80,
   },
   textinput: {
     height: 26,
