@@ -1,11 +1,21 @@
 # Into-React-Native
 -------
+
+- 开始写一个RN的demo
+
+  -  ``` react-native init projectname ```
+  - cd project &&  react-native run-ios || open .xcodeproj && hit run in xcode
+
+
 - 关于这个仓库的目录
 
   - /BookSearch
     - 是[Introduction to React Native: Building iOS Apps with JavaScript](http://www.appcoda.com/react-native-introduction/)这篇文章的实战
   - /ComponentView
     - RN中一些原生的组件，官方文档给了说明，并没有给实际demo，我们可能并不知道实际用起来是怎样的，我在这里运行组件的demo
+  - /RNAnimation
+    - react-native 中的动画尝试
+
 
 - 我觉得很不错的RN学习资料：
 
